@@ -1,0 +1,1 @@
+console.log("aamaro  is going via pyramid method");
