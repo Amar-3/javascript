@@ -18,3 +18,22 @@
 console.log(typeof (null));
 console.log(typeof (undefined));
 
+
+
+
+// primitive  means they are call by value  
+// what more it means   copy of data is passsed and any changes i do it is changed into copy not in actual memory location
+// 7 types  string , Number , Boolean , null , undefined(not assigned value but var declared)  , Symbol, BigInt
+
+
+// Reference type  array , objests, functions
+// non primitive
+// momery address reference provided
+
+// master javascript objects and window events  javascript is mastered
+// js is dynamic type.
+
+
+const id = Symbol('123')
+const anotherID = Symbol('123')
+console.log(id===anotherID)
